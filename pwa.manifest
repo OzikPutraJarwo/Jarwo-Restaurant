@@ -1,0 +1,16 @@
+{
+    "name": "Jarwo Restaurant",
+    "short_name": "JRST",
+    "description": "Order Makanan di Jarwo Restaurant",
+    "icons": [
+        {
+            "src": "https://1.bp.blogspot.com/-xSgdQIseTdU/Xvk_D0hgZ-I/AAAAAAAAFqY/Am5bHetkGjsgXau_FmvYNZALK4Bm5rcrQCLcBGAsYHQ/s192/KJ%2BLogo%2BOctagon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#18abea",
+    "background_color": "#18abea"
+}
