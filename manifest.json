@@ -1,0 +1,28 @@
+addEventListener("fetch", event => {
+  const data = {
+    name: "Jarwo Restaurant",
+    short_name: "Jarwo Restaurant",
+    display: "standalone",
+    prefer_related_applications: false,
+    start_url: "/",
+    background_color: "#18abea,
+    theme_color: "#18abea",
+    icons:[
+      {
+      src: "https://1.bp.blogspot.com/-xSgdQIseTdU/Xvk_D0hgZ-I/AAAAAAAAFqY/Am5bHetkGjsgXau_FmvYNZALK4Bm5rcrQCLcBGAsYHQ/s192/KJ%2BLogo%2BOctagon.png",
+      sizes: "192x192",
+      type: "image/png"
+      }
+    ]
+  }
+
+  const json = JSON.stringify(data, null, 2)
+
+  return event.respondWith(
+    new Response(json, {
+      headers: {
+        "content-type": "application/json;charset=UTF-8"
+      }
+    })
+  )
+})
